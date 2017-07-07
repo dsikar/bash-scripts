@@ -1,7 +1,12 @@
 #!/usr/bin
 
 # TODO
-# 1. Get wallet id from file
+# 1. Add URLs
+
+echo "Reading walled id..."
+while read p; do
+    echo $p
+done < ~/.wallet
 
 ALG=$1
 FOUND=false
