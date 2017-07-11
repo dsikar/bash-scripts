@@ -11,7 +11,7 @@ done < ~/.wallet
 ALG=$1
 FOUND=false
 case $ALG in
-    Scrypt )
+    scrypt )
         echo "Using Script algorithm"
         FOUND=true
         URL="stratum+tcp://scrypt.eu.nicehash.com:3333"
@@ -19,7 +19,7 @@ case $ALG in
 esac
 
 case $ALG in
-    SHA256 )
+    sha256d )
         echo "Using SHA256 algorithm"
         FOUND=true
         URL="stratum+tcp://sha256.eu.nicehash.com:3334"
