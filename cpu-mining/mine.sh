@@ -34,6 +34,13 @@ case $ALG in
         ;;
 esac
 
+case $ALG in
+    lyra2re )
+        echo "Using Lyra2RE algorithm"
+        FOUND=true
+        URL="stratum+tcp://lyra2re.eu.nicehash.com:3342"
+        ;;
+esac
 
 if $FOUND ; then
     echo "Algorithm found"
