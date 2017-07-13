@@ -35,6 +35,22 @@ case $ALG in
 esac
 
 case $ALG in
+    x11 )
+        echo "Using ScryptNf algorithm"
+        FOUND=true
+        PORT="3336"
+        ;;
+esac
+
+case $ALG in
+    x13 )
+        echo "Using ScryptNf algorithm"
+        FOUND=true
+        PORT="3337"
+        ;;
+esac
+
+case $ALG in
     lyra2re )
         echo "Using Lyra2RE algorithm"
         FOUND=true
