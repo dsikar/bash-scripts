@@ -15,5 +15,6 @@ git checkout linux
 ./autogen.sh
 ./configure CFLAGS="-march=native" --with-crypto --with-curl
 make
-# create a wallet, choose an algorithm and corresponding url, get mining
-./cpuminer --url=stratum+tcp://lyra2re.eu.nicehash.com:3342 --algo=lyra2re --user=<wallet id>
+# create a wallet, choose an algorithm and corresponding url, get mining e.g.
+# ./cpuminer --url=stratum+tcp://lyra2re.eu.nicehash.com:3342 --algo=lyra2re --user=<wallet id>
+# see mine.sh
