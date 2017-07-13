@@ -36,7 +36,7 @@ esac
 
 case $ALG in
     x11 )
-        echo "Using ScryptNf algorithm"
+        echo "Using x11 algorithm"
         FOUND=true
         PORT="3336"
         ;;
@@ -44,7 +44,7 @@ esac
 
 case $ALG in
     x13 )
-        echo "Using ScryptNf algorithm"
+        echo "Using x13 algorithm"
         FOUND=true
         PORT="3337"
         ;;
