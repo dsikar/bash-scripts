@@ -1,7 +1,7 @@
 #!/usr/bin
 
 # TODO
-# 1. Add URLs
+# 1. Add Algos + ports 
 
 echo "Reading walled id..."
 while read l; do
