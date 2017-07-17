@@ -1,7 +1,7 @@
 #!/usr/bin
 
 # TODO
-# 1. Add URLs
+# 1. Add Algos + ports 
 
 echo "Reading walled id..."
 while read l; do
@@ -36,7 +36,7 @@ esac
 
 case $ALG in
     x11 )
-        echo "Using ScryptNf algorithm"
+        echo "Using x11 algorithm"
         FOUND=true
         PORT="3336"
         ;;
@@ -44,7 +44,7 @@ esac
 
 case $ALG in
     x13 )
-        echo "Using ScryptNf algorithm"
+        echo "Using x13 algorithm"
         FOUND=true
         PORT="3337"
         ;;
