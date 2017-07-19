@@ -14,7 +14,11 @@ virtualenv --system-site-packages ~/tensorflow # for Python 2.7
 source ~/tensorflow/bin/activate
 # 4. Issue one of the following commands to install TensorFlow in the active virtualenv environment: (pip required)
 cd ~/tensorflow
-pip install --upgrade tensorflow
+# Extra - download custom wheel
+wget https://github.com/lakshayg/tensorflow-build/raw/master/tensorflow-1.2.1-cp27-cp27mu-linux_x86_64.whl
+# Extra custom install in lieu of
+# pip install --upgrade tensorflow
+pip install --ignore-installed --upgrade tensorflow-1.2.1-cp27-cp27mu-linux_x86_64.whl
 
 
 
