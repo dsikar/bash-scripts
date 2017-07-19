@@ -1,5 +1,7 @@
 #!/usr/bin
 
+# tensorflow install on Ubuntu 16.04 64bit
+
 # update
 sudo apt-get update
 # from https://www.tensorflow.org/install/install_linux
