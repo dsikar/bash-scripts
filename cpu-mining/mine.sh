@@ -1,7 +1,7 @@
 #!/usr/bin
 
 # TODO
-# 1. Add Algos + ports 
+# 1. Add Algos + ports
 
 echo "Reading walled id..."
 while read l; do
@@ -71,6 +71,14 @@ case $ALG in
         echo "Using ScryptNf algorithm"
         FOUND=true
         PORT="3340"
+        ;;
+esac
+
+case $ALG in
+    neoscrypt )
+        echo "Using ScryptNf algorithm"
+        FOUND=true
+        PORT="3341"
         ;;
 esac
 
