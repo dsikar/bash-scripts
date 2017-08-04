@@ -9,3 +9,7 @@ print(node1, node2)
 sess = tf.Session()
 print(sess.run([node1, node2]))
 
+# Adding placeholders
+a = tf.placeholder(tf.float32)
+b = tf.placeholder(tf.float32)
+adder_node = a + b  # + provides a shortcut for tf.add(a, b)
