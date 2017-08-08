@@ -38,3 +38,10 @@ y = tf.placeholder(tf.float32)
 squared_deltas = tf.square(linear_model - y)
 loss = tf.reduce_sum(squared_deltas)
 print(sess.run(loss, {x:[1,2,3,4], y:[0,-1,-2,-3]}))
+
+
+# Reassigning
+fixW = tf.assign(W, [-1.])
+fixb = tf.assign(b, [1.])
+sess.run([fixW, fixb])
+print(sess.run(loss, {x:[1,2,3,4], y:[0,-1,-2,-3]}))
