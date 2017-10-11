@@ -9,7 +9,7 @@
 # Internet connection setup via desktop
 
 # Update & upgrade
-sudo apt-get update && apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
 
 # Install apache2
 sudo apt-get install apache2 
