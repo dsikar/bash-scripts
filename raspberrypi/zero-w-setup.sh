@@ -18,3 +18,5 @@ sudo apt-get install apache2
 sudo raspi-config
 # then option 5 Interfacing Options, then P2 SSH Enable
 
+# Setting up a static ip address
+
