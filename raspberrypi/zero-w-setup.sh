@@ -14,7 +14,7 @@ sudo apt-get update && sudo apt-get upgrade
 # Install apache2
 sudo apt-get install apache2 
 
-# Enable ssh
-sudo raspi-config 
-# Alternatively, create ssh file in root directory TBC
-# sudo touch /ssh
+# Enable ssh - run
+sudo raspi-config
+# then option 5 Interfacing Options, then P2 SSH Enable
+
