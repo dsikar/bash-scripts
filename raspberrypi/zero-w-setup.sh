@@ -16,7 +16,12 @@ sudo apt-get install apache2
 
 # Enable ssh - run
 sudo raspi-config
-# then option 5 Interfacing Options, then P2 SSH Enable
+# then option 5 "Interfacing Options", then "P2 SSH" and Enable
 
 # Setting up a static ip address
+# 1. Find currently assigned IP address
+
+# VNC access
+
+# Passwordless SSH
 
