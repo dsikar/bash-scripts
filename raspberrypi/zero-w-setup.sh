@@ -24,4 +24,10 @@ sudo raspi-config
 # VNC access
 
 # Passwordless SSH
+mkdir ~/.ssh
+chmod 700 ~./ssh
+cd ~/.ssh
+ssh-keygen
+
+
 
