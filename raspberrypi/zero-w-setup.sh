@@ -29,5 +29,4 @@ chmod 700 ~./ssh
 cd ~/.ssh
 ssh-keygen
 chmod 600 id_rsa.pub
-
-
+cat id_rsa.pub >> known_hosts
