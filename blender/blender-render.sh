@@ -1,1 +1,22 @@
-# Run instance
+# 1. Run Blender instance (Dublin)
+$ aws ec2 run-instances --image-id
+          ami-23b48854 --count 1 --instance-type p2.xlarge --key-name MyKeyPair --security-group-ids sg-xxxxxxxx
+# 2. ssh
+$ ssh -i myprivatekey ubuntu@<public ip>
+
+# 3. Download example
+$ wget https://download.blender.org/demo/test/splash_fishy_cat_2.zip
+
+# 4. unzip
+$ unzip splash_fishy_cat_2.zip
+
+# change directory
+$ cd blender_splash_fishy_cat
+
+# create output directory
+$ mkdir output
+
+# render
+$ blender -b fishy_cat.blend -x 1 -o /output -a
+
+
