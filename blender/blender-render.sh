@@ -25,4 +25,8 @@ $ mkdir output
 $ blender -b fishy_cat.blend -x 1 -o /output -a
 
 # Assemble *png output with any available tool
+# Windows example using VirtualDub
+# 1. File > Open
+# 2. Video > Frame Rate
+# 3. File > Save as AVI
 
