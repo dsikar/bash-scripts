@@ -22,7 +22,7 @@ $ cd blender_splash_fishy_cat
 $ mkdir output
 
 # 7. Render
-$ blender -b fishy_cat.blend -x 1 -o /output -a
+$ blender -b fishy_cat.blend -x 1 -o /output/ -a
 
 # Assemble *png output with any available tool
 # Windows example using VirtualDub
