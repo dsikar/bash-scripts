@@ -4,6 +4,11 @@ $ aws ec2 run-instances --image-id
 # 2. SSH
 $ ssh -i myprivatekey ubuntu@<public ip>
 
+# 2.1 Configure GPU ~ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/optimize_gpu.html
+$ sudo nvidia-smi -pm 1
+$ sudo nvidia-smi --auto-boost-default=0
+$ sudo nvidia-smi -ac 2505,875
+
 # 3. Download example
 $ wget https://download.blender.org/demo/test/splash_fishy_cat_2.zip
 
@@ -19,4 +24,5 @@ $ mkdir output
 # 7. Render
 $ blender -b fishy_cat.blend -x 1 -o /output -a
 
+# Assemble *png output with any available tool
 
