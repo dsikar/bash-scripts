@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# start - to stop delete /tmp/runpiwebcam
+# start - to stop delete /tmp/runpiwebcam then stop script
 
 STARTFILE="/tmp/runpiwebcam"
 
