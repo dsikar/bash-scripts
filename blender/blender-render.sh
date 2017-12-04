@@ -39,7 +39,7 @@ $ blender -b fishy_cat.blend -x 1 -o /output/ -a
 # 2. Video > Frame Rate
 # 3. File > Save as AVI
 
-# 8. Another render example (Windows)
+# 8. Another render example (Windows) - NB does not work via Remote Desktop
 ```
 # run in background
 # use cycles engine
@@ -47,4 +47,9 @@ $ blender -b fishy_cat.blend -x 1 -o /output/ -a
 # apend a file extension to output
 # render animation (as opposed to single frame)
 $ blender --background bash-scripts/blender/walk-with-path/main-scene.blend --render-output bash-scripts/blender/walk-with-path/output_ --engine CYCLES --render-format AVIRAW --use-extensi 1 --render-anim
+```
+
+# 9. Another render example (Windows) - render single frame
+```
+blender --background main-scene.blend --render-output output --engine CYCLES --render-format PNG --use-extension 1 --render-frame 0
 ```
