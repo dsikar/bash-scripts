@@ -12,4 +12,4 @@ then
 fi
 
 # Save current count
-find ~/public_html -type f | wc -l >> ~/public_html/filecount
+find ~/public_html -type f | wc -l > ~/public_html/filecount
