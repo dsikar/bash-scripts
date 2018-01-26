@@ -1,7 +1,7 @@
 #! /usr/bin
 
 # get previous count
-prev_count=$(cat filecount)
+prev_count=$(cat ~/public_html/filecount)
 # echo $prev_count
 curr_count=$(find ~/public_html -type f | wc -l)
 # echo $curr_count
