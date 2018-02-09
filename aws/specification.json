@@ -1,0 +1,6 @@
+    {
+      "ImageId": "ami-94b236ed",
+      "SecurityGroupIds": [ "sg-218ae745" ],
+      "InstanceType": "t2.micro",
+      "KeyName": "pikey"
+    }
