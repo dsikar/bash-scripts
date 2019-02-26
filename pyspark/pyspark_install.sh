@@ -4,12 +4,18 @@
 # pyspark ubuntu install #
 ##########################
 
+# install python 3.6
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
-sudo apt-get install python3
+sudo apt-get install python3.6
 
-#python add python alias
-echo "# Add python alias" >> ~/.bashrc
-echo "alias python=python" >> ~/.bashrc
+# change symlink
+sudo rm /usr/bin/python
+sudo ln -s /usr/bin/python3.6 /usr/bin/python
+# this should now say python3.6
+which python
+
 
 # Yarn install from https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/
 # yarn repo
