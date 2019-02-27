@@ -36,4 +36,7 @@ yarn --version
 sudo apt install python3-pip
 
 # install pyspark
-sudo pip install pyspark
+sudo pip3 install pyspark
+
+# install jupyter notebook
+sudo pip3 install jupyter
