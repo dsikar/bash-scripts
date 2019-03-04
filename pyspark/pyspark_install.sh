@@ -4,6 +4,8 @@
 # pyspark ubuntu install #
 ##########################
 
+# TODO JAVA INSTALL
+
 # install python 3.6
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
@@ -40,3 +42,5 @@ sudo pip3 install pyspark
 
 # install jupyter notebook
 sudo pip3 install jupyter
+
+
