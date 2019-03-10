@@ -27,7 +27,7 @@ gcloud dataproc clusters create ${PROJECT_ID} --project=${PROJECT_ID} --worker-m
 # create job
 gcloud dataproc jobs submit pyspark gs://${PROJECT_ID}/sparkSubmitDemo.py --cluster=${PROJECT_ID} -- gs://${PROJECT_ID}/hamlet.txt
 
-# delete cluster - prompt answer required
+# delete cluster 
 gcloud dataproc clusters delete ${PROJECT_ID} --quiet
 
 # remove bucket contents
