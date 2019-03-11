@@ -1,5 +1,5 @@
 # This scripts assumes:
-# 1. There is a google cloud project called inm432 (change as required)
+# 1. There is a google cloud project id inm432 NB This is the id, not name - (change as required)
 # 2. Storage billing has been enabled
 # 3. Clusters API is enabled
 
