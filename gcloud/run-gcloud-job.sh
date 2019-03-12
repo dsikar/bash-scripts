@@ -2,15 +2,16 @@
 # 1. There is a google cloud project id inm432 NB This is the id, not name - (change as required)
 # 2. Storage billing has been enabled
 # 3. Clusters API is enabled
-
-# set project
-gcloud config set project inm432
+# 4. This script runs from Google Cloud terminal
 
 # set environment variable
 export PROJECT_ID=inm432
 
 # make sure it stuck
 echo ${PROJECT_ID}
+
+# set project
+gcloud config set project inm432
 
 # create bucket
 gsutil mb -c regional -l europe-west1 -p ${PROJECT_ID} gs://${PROJECT_ID}
