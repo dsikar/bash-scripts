@@ -5,8 +5,8 @@ Generic bash scripts to get things going. Firstly, setting up git locally, plus 
 
 Once git bash is installed, configure user details:
 ```
-git config --global user.name "Daniel Sikar"
-git config --global user.email dsikar@gmail.com
+git config --global user.name "Linus Torwalds"
+git config --global user.email ltorvalds@linux.org
 ```
 To use ssh over https, meaning you don't have to log in every time you push to remote, generate rsa key and put public part (.pub) on github; account Settings > SSH and GPG keys > New SSH key.  
 Add the private part (no file extension) to your home direction .ssh folder, renaming it id_rsa, so you should have this file locally:
