@@ -34,4 +34,13 @@ Transferred: sent 2720, received 2228 bytes, in 0.2 seconds
 Bytes per second: sent 13494.9, received 11053.9
 debug1: Exit status 1
 ```
+Next, the local repository needs a remote that tells the github server we are dealing with ssh.  
+To see that is the case, look at the remote locate repository points to:
+```
+git remote -v
+```
+If you are pushing to the an https adress e.g. https://github.com/ltovalds/linux-kernel.git, change it to the ssh version e.g.:
+```
+git remote set-url origin git@github.com:ltorvalds/linux-kernel.git
+```
 And that should be the passwordless ssh added, and not need to login when pushing to remote.
