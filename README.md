@@ -29,7 +29,7 @@ debug1: channel 0: new [client-session]
 debug1: Entering interactive session.
 debug1: pledge: network
 debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
-Hi dsikar! You've successfully authenticated, but GitHub does not provide shell access.
+Hi ltorvalds! You've successfully authenticated, but GitHub does not provide shell access.
 debug1: channel 0: free: client-session, nchannels 1
 Transferred: sent 2720, received 2228 bytes, in 0.2 seconds
 Bytes per second: sent 13494.9, received 11053.9
