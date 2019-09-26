@@ -14,6 +14,10 @@ Add the private part (no file extension) to your home direction .ssh folder, ren
 ```
 ls ~/.ssh/id_rsa
 ```
+Change mode for minimal permissions required:
+```
+chmod 400 ~/.ssh/id_rsa
+```
 Test to make sure there is access:
 ```
 ssh -vT git@github.com
