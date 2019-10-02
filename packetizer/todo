@@ -1,0 +1,5 @@
+1. copy packetizer directory
+2. pipe ls last packetizer files
+3. pipe ls last packetizer directory
+4. pipe ls last /home/pi files
+5. pipe ls last /var/www/html files
